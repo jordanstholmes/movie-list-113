@@ -1,0 +1,31 @@
+{
+  "name": "movie-list-113",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -w src --out-dir compiled --presets @babel/preset-react src/index.js & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanstholmes/movie-list-113.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanstholmes/movie-list-113/issues"
+  },
+  "homepage": "https://github.com/jordanstholmes/movie-list-113#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
